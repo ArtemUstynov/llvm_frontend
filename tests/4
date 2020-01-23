@@ -1,0 +1,14 @@
+prgram recursion ;
+extern getnum();
+function a (k : integer) :  integer 
+  begin
+     if k > 1 then
+     begin 
+        writeln(k);
+        a(k-1);
+     end
+     else writeln(1000);
+  end
+begin
+a(getnum());
+end.

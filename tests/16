@@ -1,0 +1,10 @@
+program expressions;
+
+
+var n : integer;
+
+begin
+    readln(n);
+    n = (n - 1) * 5 + 10;
+    writeln(n);
+end.

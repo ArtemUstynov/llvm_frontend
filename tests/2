@@ -1,0 +1,8 @@
+program functionCalls;
+function a () begin 12 end
+function b () begin a(); end
+begin
+writeln ( writeln (b() )+4);
+writeln (a ());
+a ();
+end.

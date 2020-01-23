@@ -1,0 +1,24 @@
+program expressions;
+
+var
+    x, y, a, b, c, d : integer;
+    
+begin
+    readln(x);
+    readln(y);
+
+    a = x + y;
+    b = y - x;
+
+    writeln(x);
+    writeln(y);
+    writeln(a);
+    writeln(b);
+
+    c = (x + a) * (y - b);
+
+    writeln(c);
+
+
+    writeln(d);
+end.

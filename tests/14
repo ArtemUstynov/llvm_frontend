@@ -1,0 +1,11 @@
+program nested;
+function a (n : integer)
+begin
+    readln(n);
+    if n >= 10 then
+        for i:= n downto 0 do begin writeln(i) ; writeln(i) ; end 
+    writeln(300);
+end 
+begin
+    a(20);
+end.

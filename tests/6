@@ -1,0 +1,9 @@
+program SEQUENCING;
+    function a ( x : integer) 
+      begin 
+        x = x + 12 ; 
+        writeln (x) ; 
+        writeln (x) ; 
+        x = x+1 ; 
+      end
+begin writeln ( a( 1 )) end.

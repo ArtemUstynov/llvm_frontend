@@ -1,0 +1,8 @@
+program inNout;
+var n: integer;
+
+begin
+    readln(n);
+    writeln(n);
+    writeln(25);
+end.

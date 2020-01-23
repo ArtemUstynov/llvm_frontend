@@ -1,0 +1,15 @@
+program otherbinop ;
+function a (n : integer) : integer
+begin
+    if n <= 10 then begin
+        writeln(100);
+        writeln(200);
+    end
+    else
+        writeln(50);
+end 
+begin
+    a(10);
+    writeln(0);
+    a(11);
+end.

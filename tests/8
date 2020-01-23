@@ -1,0 +1,13 @@
+program poh;
+const n = 10;
+      k = 15;
+function a () 
+    begin
+        writeln(n);
+        writeln(k);
+        k = 11;
+        writeln(k);
+    end 
+begin
+    a();
+end.

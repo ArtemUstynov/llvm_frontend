@@ -1,0 +1,10 @@
+program looploop;
+begin
+for i:=0 to 5 do begin
+    writeln(42) ;
+    writeln(41) ; 
+    for i:= 0 to 5 do begin
+       writeln(42)
+    end; 
+ end;
+end.

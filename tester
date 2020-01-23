@@ -1,0 +1,22 @@
+function run {
+	cmake CMakeLists.txt ; make all ;
+
+	for i in {1..17}
+	do 
+		echo -e "\n TASK $i \n" ;
+		cat ./tests/$i ;
+		#sleep 5;
+	# echo -e "\n IR \n" ;
+	./comp < ./tests/$i 2> /dev/null;
+	# sleep 5;
+	echo -e "\n\n OUTPUT \n" ;
+	./a.out
+	sleep 5;
+done
+}
+
+function clean {
+	make clean ; rm -rf CMakeFiles cmake* a.* Makefile compile* CMakeCa* ;
+  	echo "very clean";
+}
+$1

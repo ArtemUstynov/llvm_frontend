@@ -1,0 +1,7 @@
+Program localVar;
+function a ()
+    var n,c : integer;
+    begin readln(n); writeln(n+1); readln(c); c+100 ; end
+    begin
+    writeln (a());
+    end.

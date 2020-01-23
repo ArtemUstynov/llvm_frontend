@@ -1,0 +1,15 @@
+program fibonacci;
+var a : integer;
+
+function fibonacci(n : integer) : integer
+begin
+    if n < 2 then 
+        n
+    else
+        fibonacci(n-1) + fibonacci(n-2);
+end 
+
+begin
+    readln(a);
+    writeln(fibonacci(a));
+end.

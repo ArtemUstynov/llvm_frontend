@@ -1,0 +1,6 @@
+program assignInHex;
+    function a (x : integer)
+    begin  x =$1Ba1  end
+    begin
+    writeln (  a(2));
+    end.

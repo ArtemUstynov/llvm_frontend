@@ -1,0 +1,24 @@
+prgram indirectRecursion ;
+extern getnum();
+extern b (n : integer) ;
+function a (k : integer) :  integer 
+  begin
+     if k > 1 then
+     begin 
+        writeln(k);
+        b(k-1);
+     end
+      writeln(1000);
+  end
+function b (n : integer ) : integer
+     begin
+     if n > 1 then
+     begin 
+        writeln(n);
+        a(n-2);
+     end
+      writeln(2000);
+  end
+begin
+b(getnum());
+end.
